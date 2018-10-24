@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="@dimen/titlebar_height"
+              android:background="@color/Navigation_Seperator_Line_Color"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/titlebar_height"
+            android:background="@color/Navigation_Seperator_Line_Color"
+    >
+
+
+        <TextView
+                android:text="Customize"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center" android:layout_height="wrap_content" android:id="@+id/textView"
+                android:layout_centerHorizontal="false"
+                android:layout_centerVertical="true"
+                android:textSize="18sp" android:textStyle="bold|italic" android:textColor="@color/white"/>
+
+        <ImageView
+                android:id="@+id/navigation_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="false"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="1dp"
+                android:layout_marginStart="1dp"
+                android:drawablePadding="2dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="onBack"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingRight="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="10dp"
+                android:src="@mipmap/navigationbar_back_ipad"
+                android:visibility="visible"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/Navigation_Seperator_Line_Color"
+                android:visibility="visible"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

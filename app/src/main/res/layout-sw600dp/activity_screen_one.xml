@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.ScreenOne">
+
+    <include
+            android:id="@+id/include1"
+            layout="@layout/app_title_bar"/>
+
+
+    <TextView
+            android:text="I'd like to substitute..."
+            android:layout_width="match_parent"
+            android:background="#F2F2F2"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@id/include1"
+            android:padding="15dp"
+            android:textSize="16sp"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_below="@id/textView2"
+            android:layout_above="@id/textView11"/>
+
+    <!-- <include
+             android:id="@+id/include2"
+             layout="@layout/app_foot_bar"/>
+ -->
+
+    <TextView
+            android:text="Perfected!"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/titlebar_height"
+            android:background="#C41349"
+            android:layout_gravity="center" android:id="@+id/textView11"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="18sp" android:textStyle="bold|italic" android:textColor="@color/white"
+            android:layout_alignParentBottom="true" android:gravity="center_vertical|center_horizontal"/>
+
+
+</RelativeLayout>

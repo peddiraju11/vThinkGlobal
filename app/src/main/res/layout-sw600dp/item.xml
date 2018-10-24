@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="70dp"
+          android:background="#F1F1F1"
+          android:paddingBottom="16dp"
+          android:paddingEnd="16dp"
+          android:paddingStart="34dp"
+          android:paddingTop="16dp"
+          android:textColor="#6C6C6C"
+          tools:text="@tools:sample/lorem" android:padding="16dp" android:gravity="center_vertical"/>
